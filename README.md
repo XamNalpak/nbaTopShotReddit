@@ -22,10 +22,18 @@ Obviously more data would be needed to answer this question but I believe this w
     - drops duplicate posts from the same day keeping the most up to date entry
     - counts the number of entries before and after the pull
 
+# Creating Reddit API account
+Log into your reddit account at and follow the instructions https://www.reddit.com/prefs/apps
+
+<img src='capture.png'/>
+
 # Instructions
- You first must activate the virtual environment
+ You first must activate the virtual environment in your terminal
  (for windows)
- 
+
+ open up the command prompt and navigate to your current working directory,
+ then run the following command:
+
 ```sh
 nts\Scripts\activate
 ```
@@ -39,6 +47,7 @@ nts\Scripts\activate
 > 
 
 After activating your virtual environment you just go to your cmd and run
+
 ```sh
 python main.py
 ```
